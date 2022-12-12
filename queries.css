@@ -1,0 +1,39 @@
+@media (max-width: 858px) {
+    main {
+        height: calc(100vh - 200px);
+    }
+
+    .about-google-information {
+        height: 92px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 545px) {
+    main {
+        height: calc(100vh - 246px);
+    }
+
+    .about-google {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-google-information {
+        height: 138px;
+    }
+
+    .logo-google {
+        width: 300px;
+    }
+
+    .search-box {
+        width: 470px;
+    }
+
+    .btn-log-in {
+        width: 124px;
+    }
+}
